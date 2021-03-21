@@ -1,0 +1,78 @@
+body {
+  color: #555;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+section {
+  display: none;
+  padding: 0.2em;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px lightslategray;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: lightslategray;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+ol {
+  padding-inline-start: 1.5em;
+}
+
+input {
+  font-size: 1em;
+}
+
+div {
+  text-align: center;
+  margin: 1em;
+}
+
+#instruction ol {
+  text-align: left;
+}
+
+button {
+  display: inline;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  background: lightslategray;
+  box-shadow: 2px 2px 4px lightslategray;
+  color: white;
+  border: 0;
+}
+
+.inputForm ul {
+  padding: 0;
+}
+
+.inputForm li {
+  display: flex;
+  list-style: none;
+  margin: 1em 0.5em;
+}
+
+.inputForm li > input {
+  flex: 1;
+}
+
+.inputForm li > input[type="radio"] {
+  flex: none;
+}
+
+.inputForm li > label {
+  padding-right: 0.5em;
+}
